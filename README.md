@@ -1,1 +1,1 @@
-Posto aqui trabalhos feitos durante o curso da faculdade
+Posto aqui trabalhos feitos durante o curso de Sistemas para Internet da UFSM
