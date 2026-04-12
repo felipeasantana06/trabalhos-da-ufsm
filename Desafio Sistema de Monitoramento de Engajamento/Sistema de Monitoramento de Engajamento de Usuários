@@ -1,0 +1,49 @@
+Sistema de Monitoramento de Engajamento de Usuários
+Contexto: Você foi contratado por uma startup de desenvolvimento web que gerencia plataformas digitais (sites e aplicações web). 
+A equipe precisa de um sistema simples, em linguagem C, para analisar o engajamento de usuários com base em dados coletados diariamente.
+Você é responsável por desenvolver um programa com funções que processe dados de acesso e gere métricas úteis para a equipe de produto.
+
+Para isso, crie um programa em C que:
+- Leia dados de acesso de vários usuários;
+- Calcule métricas de engajamento;
+- Classifique os usuários com base no comportamento;
+- Exiba um relatório final.
+
+Dados de Entrada: Para cada usuário, o programa deve ler:
+- ID do usuário (inteiro)
+- Número de acessos no dia (inteiro)
+- Tempo total de uso em minutos (inteiro)
+- Número de páginas visitadas (inteiro)
+
+O programa deve permitir o cadastro de N usuários (definido pelo usuário no início).
+
+Um usuário é considerado:
+- Altamente engajado se: tempo ≥ 60 minutos E páginas ≥ 10;
+- Moderadamente engajado se: tempo entre 30 e 59 minutos;
+- Pouco engajado caso contrário.
+
+Calcular:
+- Média de tempo de uso geral;
+- Média de páginas visitadas;
+- Percentual de usuários altamente engajados.
+
+O programa deve obrigatoriamente utilizar funções para:
+- Ler os dados de um usuário;
+- Classificar o nível de engajamento;
+- Calcular médias;
+- Calcular percentual de usuários altamente engajados;
+- Exibir o relatório final.
+
+Você pode organizar seu programa com funções como (sugestão):
+int lerNumeroUsuarios();
+int classificarEngajamento(int tempo, int paginas);
+float calcularMediaTempo(int somaTempo, int totalUsuarios);
+float calcularMediaPaginas(int somaPaginas, int totalUsuarios);
+float calcularPercentualAlta(int totalAlta, int totalUsuarios);
+void exibirRelatorio(...);
+
+Desafios Extras 
+- Exibir o usuário com maior tempo de uso;
+- Exibir o usuário com maior número de páginas visitadas;
+- Validar entradas (não aceitar valores negativos);
+- Permitir repetição do programa (menu).

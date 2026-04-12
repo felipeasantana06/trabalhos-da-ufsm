@@ -1,0 +1,19 @@
+sintaxe do 
+
+╔═══════╦═════════╦═══════╦══════════╗
+║  ID   ║ Acessos ║ Tempo ║ Páginas  ║  ← usuarios[i]
+╠═══════╬═════════╬═══════╬══════════╣
+║  123  ║   10    ║  30   ║    5     ║  ← usuarios[0]
+╠═══════╬═════════╬═══════╬══════════╣
+║  456  ║   20    ║  45   ║    8     ║  ← usuarios[1]
+╠═══════╬═════════╬═══════╬══════════╣
+║  789  ║   15    ║  25   ║    3     ║  ← usuarios[2]
+╚═══════╩═════════╩═══════╩══════════╝
+    ↑         ↑        ↑         ↑
+ Coluna    Coluna   Coluna    Coluna
+   ID     Acessos   Tempo    Páginas
+
+sinceramente não sei se é mais ou menos eficiente que arrays normais ou qualuqer outra coisa
+
+// referencias:
+// https://www.sciencedirect.com/topics/engineering/structure-member 
